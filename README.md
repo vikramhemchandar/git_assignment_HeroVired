@@ -1,2 +1,2 @@
-# git_assignment_HeroVired
-Git and GitHub Assignment for Hero Vired
+#Calculator Plus Application
+A simple Python calculator app that provides basic arithmetic operations and square root calculation.
