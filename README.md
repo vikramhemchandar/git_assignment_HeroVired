@@ -7,7 +7,7 @@ A simple Python calculator app that provides basic arithmetic operations and squ
 - Subtraction: `subtract(a, b)`
 - Multiplication: `multiply(a, b)`
 - Division with safe handling of division-by-zero: `divide(a, b)`
-- Square root calculation with negative input check: `square_root(x)`
+- Square root calculation with input check: `square_root(x)`
 
 ## Repository Structure
 git_assignment_HeroVired/
@@ -56,7 +56,7 @@ git push origin feature/your-feature-name
 ### Branching & Release Strategy (used in this assignment)
 - `main` — production-ready code and releases.
 - `dev` — integration/testing branch where features are merged before release.
-- `feature/sqrt` — short-lived branches for feature development (e.g. feature/sqrt).
+- `feature/sqrt` — short-lived branches for feature development
 
 Releases are created as Git tags (semver): v1.0.0, v2.0.0, etc.
 
