@@ -7,8 +7,13 @@ class Calculator:
         return a - b
     def multiply(self, a, b):
         return a * b
+    
+    #Fixing the bug  that cannot divide by Zero
     def divide(self, a, b):
+        if b==0:
+            raise ValueError("Number cannot divide by Zero")
         return a / b
+    
     # TODO: Implement the following function to calculate the square root of a number.
     # def square_root(self, x):
     # return math.sqrt(x)
