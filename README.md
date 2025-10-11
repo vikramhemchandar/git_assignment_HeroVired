@@ -1,80 +1,57 @@
-# CalculatorPlus
+# Git LFS
 
-A simple Python calculator app that provides basic arithmetic operations and square root calculation.
+This repository uses **Git LFS(Large File Storage)** to efficiently manage large binary files (such as images, datasets, graphics, or other non-text assets).
 
-## Features
-- Addition: `add(a, b)`
-- Subtraction: `subtract(a, b)`
-- Multiplication: `multiply(a, b)`
-- Division with safe handling of division-by-zero: `divide(a, b)`
-- Square root calculation with input check: `square_root(x)`
+## Pre-requisites
+- Git **version 18.2 or later**
+- **Git LFS** installed
 
 ## Repository Structure
-git_assignment_HeroVired/
-<br>├── CalculatorPlus.py    # Main calculator application
+git_assignment_HeroVired/LFS
+<br>├── iTunes and Git.zip  # Large Binary file
 <br>├── README.md           # Project documentation
-<br>└── .git/              # Git version control
+<br>├── .gitattributes      # It file contains patterns and associated attributes
+<br>└── .git/               # Git version control
 
 ## Installation
-Clone the repository:
-```bash
-git clone https://github.com/vikramhemchandar/git_assignment_HeroVired.git
-cd git_assignment_HeroVired
+for Windows OS, Download and install from
+```
+https://git-lfs.com
+```
+## Initialize Git LFS  
+```
+git lfs install
+```
+verify installation
+```
+git lfs --version
 ```
 
-## Running the application
+## Tracking Binary Files
 ```
-python calculator.py
+git lfs track "*.zip"
 ```
+These commands add patterns for Git LFS to .gitattributes.
+Commit .gitattributes after tracking new types!
 
-## Example Output
 ```
-16 + 4 = 20
-16 - 4 = 12
-16 * 4 = 64
-16 / 4 = 4.0
+git add .gitattributes
+git commit -m "Track binary file with Git LFS"
 ```
-
-### Development Commands
-
-```bash
-# Clone the repository
-git clone https://github.com/vikramhemchandar/git_assignment_HeroVired.git
-cd git_assignment_HeroVired
-
-# Create a new feature branch
-git checkout -b feature/your-feature-name
-
-# Make changes and commit
-git add .
-git commit -m "Your commit message"
-
-# Push feature branch
-git push origin feature/your-feature-name
+## Adding and Committing Large Files
+1. Add files as usual
 ```
-
-### Branching & Release Strategy (used in this assignment)
-- `main` — production-ready code and releases.
-- `dev` — integration/testing branch where features are merged before release.
-- `feature/sqrt` — short-lived branches for feature development
-
-Releases are created as Git tags (semver): v1.0.0, v2.0.0, etc.
-
-### Release Information
-- **Version**: 1.0.0
-- **Release Date**: October 10, 2025
-- **Tag**: `v1.0.0`
-- **Commit Hash**: `7cf6d1f `
-- **Release Notes**: Initial release with basic arithmetic operations
-
-### Collaborators
-Invite collaborators via GitHub: Settings → Manage access → Invite collaborators and add their GitHub usernames.
-
-### Contributing
-1. Create a feature branch from dev: git checkout -b feature/sqrt dev
-2. Make changes, write tests, and commit.
-3. Push your branch and create a Pull Request (target main for review, then merge into dev).
-4. After review and verification, merge into dev, test, and finally merge dev into main for the release.
+git add path/<fileame> or git add . (if the file is present in the same folder)
+````
+2. Commit
+```
+git commit -m "Add large binary file"
+```
+3. Push to remote
+```
+git push origin <branch>
+```
+On first push of a large file, LFS will upload file contents to the remote server.
 
 ## License
 This assignment project has no formal license, however, it is part of Hero Vired Git and GitHub Assignment
