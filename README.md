@@ -118,7 +118,7 @@ a. Create a new branch **feature/circle-area**
 <img width="940" height="174" alt="image" src="https://github.com/user-attachments/assets/c0118604-fa29-4c5a-b082-7df8ac53fb0e" />
 
 b. Stash changes in feature/circle-area
-<img width="745" height="606" alt="image" src="https://github.com/user-attachments/assets/b9543964-485c-472d-8956-e8ce29013ce1" />
+<img width="745" height="606" alt="image" src="https://github.com/user-attachments/assets/b9543964-485c-472d-8956-e8ce29013ce1" /><br>
 After stashing the feature, the code has saved but not committed
 <img width="940" height="979" alt="image" src="https://github.com/user-attachments/assets/231bc959-bd4d-440b-9de6-08e8b450d115" />
 
