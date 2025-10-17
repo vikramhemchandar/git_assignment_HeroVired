@@ -135,10 +135,27 @@ e. Switch back to feature/circle-area
 After stash apply on feature/circle-area
 <img width="940" height="1044" alt="image" src="https://github.com/user-attachments/assets/648a3f44-07ff-473a-ab6f-6ae51dbbc1d3" />
 
-f. Switch back to feature/rectangle-area
+f. Commit and push feature/circle-area branch
+<img width="940" height="1044" alt="image" src="https://github.com/user-attachments/assets/12fd4c2e-cdff-47c3-b820-1f03bc639919" />
+
+
+g. Switch back to feature/rectangle-area
 <img width="940" height="750" alt="image" src="https://github.com/user-attachments/assets/40c911f9-152c-47cb-8cbc-0bf430c5698a" />
 After stash changes applied on feature/rectangle-area
 <img width="940" height="953" alt="image" src="https://github.com/user-attachments/assets/ffb52f09-d7ec-4a93-9664-55fd2fcae945" />
+
+h. Commmit and push feature/rectangle-area
+<img width="940" height="953" alt="image" src="https://github.com/user-attachments/assets/5ba588d3-fd7d-4a9a-8801-42a286a4ffdb" />
+
+i. Create two Pull Requests to merge both feature/circle-area and feature/rectangle-area branches to dev branch<br>
+Raised Pull Request and code review the feature/circle-area branch to dev branch
+<img width="940" height="952" alt="image" src="https://github.com/user-attachments/assets/c4353eab-b362-4a2e-af7d-3fbffd95c599" />
+
+Pull Request to merge the code from feature/rectangle-area to dev branch
+<img width="940" height="716" alt="image" src="https://github.com/user-attachments/assets/fe5ce1c3-a477-43f5-aee0-855429173731" />
+
+j. Create Pull Request to merge from dev branch to main branch and review the code
+<img width="940" height="818" alt="image" src="https://github.com/user-attachments/assets/9396af32-1fe2-4414-99ae-e2b073e26a5e" />
 
 ### Collaborators
 Invite collaborators via GitHub: Settings → Manage access → Invite collaborators and add their GitHub usernames.
