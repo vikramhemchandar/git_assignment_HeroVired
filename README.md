@@ -1,12 +1,12 @@
 # Git and GitHub Assignment
 This assignment has 3 programs
- - CalculatorPlus python program
- - LFS (Large File Storage) program
- - GeometryCalculator python program
+ - CalculatorPlusPython Program
+ - Git LFS
+ - GeometryCalculator Python Program
 
 Following document discusses about the two python programs in detailed with **screenshots**
 
-## Program 1. CalculatorPlus Application
+## Program 1. CalculatorPlus Python Program
 
 A simple Python calculator app that provides basic arithmetic operations and square root calculation.
 
@@ -107,7 +107,7 @@ k. Merge the code from dev to main branch. Create a new release with version 2
 > [!NOTE]  
 > End of CalculatorPlus Python Program
 
-## Program 2. GeormetryCalculator Application
+## Program 2. Git LFS
 
 This repository uses **Git LFS(Large File Storage)** to efficiently manage large binary files (such as images, datasets, graphics, or other non-text assets).
 
@@ -175,7 +175,7 @@ Adding and Pushing the Large File to the GitHub Repo
 > [!NOTE]  
 > End of LFS Program
 
-## Program 3. GeormetryCalculator Application
+## Program 3. GeormetryCalculator Pythong Program
 
 A simple Python app that provides basic area calculator for Rectangle and Circle.
 
